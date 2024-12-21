@@ -2,10 +2,10 @@ namespace Tic_Tac_Toe
 {
     public partial class Form1 : Form
     {
-        Boolean check;
+        //Boolean check;
         int contador;
         int suma;
-        int partidas;
+        //int partidas;
         int clicks;
         Boolean ganador;
         int Player1Score;
