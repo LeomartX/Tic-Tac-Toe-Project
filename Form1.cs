@@ -9,6 +9,11 @@ namespace Tic_Tac_Toe
         int clicks;
         Boolean ganador;
 
+        void DeterminarGanador()
+        {
+            //Desarrollar la lógica para este método
+        }
+
         void Enable()
         {
             button1.Enabled = false;
