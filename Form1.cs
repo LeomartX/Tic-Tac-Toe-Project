@@ -8,10 +8,19 @@ namespace Tic_Tac_Toe
         int partidas;
         int clicks;
         Boolean ganador;
+        int Player1Score;
+        int Player2Score;
 
         void DeterminarGanador()
         {
-            //Desarrollar la lógica para este método
+            if (player1Score == 3) 
+            {     
+            Console.WriteLine("¡El ganador es el Player 1!"); 
+            }
+            else
+            { 
+            Console.WriteLine("¡El ganador es el Player 2!"); 
+            }
         }
 
         void Enable()
