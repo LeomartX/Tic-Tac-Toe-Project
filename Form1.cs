@@ -3,7 +3,7 @@ namespace Tic_Tac_Toe
     public partial class Form1 : Form
     {
         Boolean check;
-        int contador
+        int contador;
         int suma;
         int partidas;
         int clicks;
