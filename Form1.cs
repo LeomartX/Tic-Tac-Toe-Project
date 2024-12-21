@@ -3,6 +3,7 @@ namespace Tic_Tac_Toe
     public partial class Form1 : Form
     {
         Boolean check;
+        int contador;
         int suma;
         int partidas;
         int clicks;
@@ -30,7 +31,7 @@ namespace Tic_Tac_Toe
                 button1.BackColor = Color.Red;
                 button2.BackColor = Color.Red;
                 button3.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador X es el Ganador!");
+                MessageBox.Show("Â¡El Jugador X es el Ganador!");
                 suma = int.Parse(label5.Text);
                 partidas = int.Parse(label8.Text);
                 label5.Text = Convert.ToString(suma + 1);
@@ -43,7 +44,7 @@ namespace Tic_Tac_Toe
                 button4.BackColor = Color.Red;
                 button5.BackColor = Color.Red;
                 button6.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador X es el Ganador!");
+                MessageBox.Show("Â¡El Jugador X es el Ganador!");
                 suma = int.Parse(label5.Text);
                 partidas = int.Parse(label8.Text);
                 label5.Text = Convert.ToString(suma + 1);
@@ -56,7 +57,7 @@ namespace Tic_Tac_Toe
                 button7.BackColor = Color.Red;
                 button8.BackColor = Color.Red;
                 button9.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador X es el Ganador!");
+                MessageBox.Show("Â¡El Jugador X es el Ganador!");
                 suma = int.Parse(label5.Text);
                 partidas = int.Parse(label8.Text);
                 label5.Text = Convert.ToString(suma + 1);
@@ -69,7 +70,7 @@ namespace Tic_Tac_Toe
                 button1.BackColor = Color.Red;
                 button5.BackColor = Color.Red;
                 button9.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador X es el Ganador!");
+                MessageBox.Show("Â¡El Jugador X es el Ganador!");
                 suma = int.Parse(label5.Text);
                 partidas = int.Parse(label8.Text);
                 label5.Text = Convert.ToString(suma + 1);
@@ -82,7 +83,7 @@ namespace Tic_Tac_Toe
                 button3.BackColor = Color.Red;
                 button5.BackColor = Color.Red;
                 button7.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador X es el Ganador!");
+                MessageBox.Show("Â¡El Jugador X es el Ganador!");
                 suma = int.Parse(label5.Text);
                 partidas = int.Parse(label8.Text);
                 label5.Text = Convert.ToString(suma + 1);
@@ -95,7 +96,7 @@ namespace Tic_Tac_Toe
                 button1.BackColor = Color.Red;
                 button4.BackColor = Color.Red;
                 button7.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador X es el Ganador!");
+                MessageBox.Show("Â¡El Jugador X es el Ganador!");
                 suma = int.Parse(label5.Text);
                 partidas = int.Parse(label8.Text);
                 label5.Text = Convert.ToString(suma + 1);
@@ -108,7 +109,7 @@ namespace Tic_Tac_Toe
                 button2.BackColor = Color.Red;
                 button5.BackColor = Color.Red;
                 button8.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador X es el Ganador!");
+                MessageBox.Show("Â¡El Jugador X es el Ganador!");
                 suma = int.Parse(label5.Text);
                 partidas = int.Parse(label8.Text);
                 label5.Text = Convert.ToString(suma + 1);
@@ -121,7 +122,7 @@ namespace Tic_Tac_Toe
                 button3.BackColor = Color.Red;
                 button6.BackColor = Color.Red;
                 button9.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador X es el Ganador!");
+                MessageBox.Show("Â¡El Jugador X es el Ganador!");
                 suma = int.Parse(label5.Text);
                 partidas = int.Parse(label8.Text);
                 label5.Text = Convert.ToString(suma + 1);
@@ -137,7 +138,7 @@ namespace Tic_Tac_Toe
                 button1.BackColor = Color.Red;
                 button2.BackColor = Color.Red;
                 button3.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador O es el Ganador!");
+                MessageBox.Show("Â¡El Jugador O es el Ganador!");
                 suma = int.Parse(label4.Text);
                 partidas = int.Parse(label8.Text);
                 label4.Text = Convert.ToString(suma + 1);
@@ -150,7 +151,7 @@ namespace Tic_Tac_Toe
                 button4.BackColor = Color.Red;
                 button5.BackColor = Color.Red;
                 button6.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador O es el Ganador!");
+                MessageBox.Show("Â¡El Jugador O es el Ganador!");
                 suma = int.Parse(label4.Text);
                 partidas = int.Parse(label8.Text);
                 label4.Text = Convert.ToString(suma + 1);
@@ -163,7 +164,7 @@ namespace Tic_Tac_Toe
                 button7.BackColor = Color.Red;
                 button8.BackColor = Color.Red;
                 button9.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador O es el Ganador!");
+                MessageBox.Show("Â¡El Jugador O es el Ganador!");
                 suma = int.Parse(label4.Text);
                 partidas = int.Parse(label8.Text);
                 label4.Text = Convert.ToString(suma + 1);
@@ -176,7 +177,7 @@ namespace Tic_Tac_Toe
                 button1.BackColor = Color.Red;
                 button5.BackColor = Color.Red;
                 button9.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador O es el Ganador!");
+                MessageBox.Show("Â¡El Jugador O es el Ganador!");
                 suma = int.Parse(label4.Text);
                 partidas = int.Parse(label8.Text);
                 label4.Text = Convert.ToString(suma + 1);
@@ -189,7 +190,7 @@ namespace Tic_Tac_Toe
                 button3.BackColor = Color.Red;
                 button5.BackColor = Color.Red;
                 button7.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador O es el Ganador!");
+                MessageBox.Show("Â¡El Jugador O es el Ganador!");
                 suma = int.Parse(label4.Text);
                 partidas = int.Parse(label8.Text);
                 label4.Text = Convert.ToString(suma + 1);
@@ -202,7 +203,7 @@ namespace Tic_Tac_Toe
                 button1.BackColor = Color.Red;
                 button4.BackColor = Color.Red;
                 button7.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador O es el Ganador!");
+                MessageBox.Show("Â¡El Jugador O es el Ganador!");
                 suma = int.Parse(label4.Text);
                 partidas = int.Parse(label8.Text);
                 label4.Text = Convert.ToString(suma + 1);
@@ -215,7 +216,7 @@ namespace Tic_Tac_Toe
                 button2.BackColor = Color.Red;
                 button5.BackColor = Color.Red;
                 button8.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador O es el Ganador!");
+                MessageBox.Show("Â¡El Jugador O es el Ganador!");
                 suma = int.Parse(label4.Text);
                 partidas = int.Parse(label8.Text);
                 label4.Text = Convert.ToString(suma + 1);
@@ -228,7 +229,7 @@ namespace Tic_Tac_Toe
                 button3.BackColor = Color.Red;
                 button6.BackColor = Color.Red;
                 button9.BackColor = Color.Red;
-                MessageBox.Show("¡El Jugador O es el Ganador!");
+                MessageBox.Show("Â¡El Jugador O es el Ganador!");
                 suma = int.Parse(label4.Text);
                 partidas = int.Parse(label8.Text);
                 label4.Text = Convert.ToString(suma + 1);
@@ -241,7 +242,7 @@ namespace Tic_Tac_Toe
 
             if (clicks == 9 && ganador == false)
             {
-                MessageBox.Show("¡Empate!");
+                MessageBox.Show("Â¡Empate!");
             }
         }
         public Form1()
@@ -433,7 +434,7 @@ namespace Tic_Tac_Toe
             button8.BackColor = Color.White;
             button9.BackColor = Color.White;
 
-            MessageBox.Show("¡Nueva partida iniciada!");
+            MessageBox.Show("Â¡Nueva partida iniciada!");
             clicks = 0;
             ganador = false;
             check = false;
